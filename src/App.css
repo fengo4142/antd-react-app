@@ -1,0 +1,210 @@
+:root {
+  --main-color: #12356d;
+  --main-bg-color: #f0f2f5;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  border: none !important;
+  float: left;
+  margin: 2px 50px !important;
+  width: 160px !important;
+  font-size: 2rem;
+  color: #eee !important;
+  text-transform: uppercase;
+  background: var(--main-color);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.global-search {
+  width: 100%;
+}
+
+.global-search.ant-select-auto-complete .ant-select-selection--single {
+  margin-right: -46px;
+}
+
+.global-search.ant-select-auto-complete
+  .ant-input-affix-wrapper
+  .ant-input:not(:last-child) {
+  padding-right: 62px;
+  border-color: var(--main-color);
+}
+
+.global-search.ant-select-auto-complete
+  .ant-input-affix-wrapper
+  .ant-input-suffix {
+  right: 0;
+}
+
+.global-search.ant-select-auto-complete
+  .ant-input-affix-wrapper
+  .ant-input-suffix
+  button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.global-search-item {
+  display: flex;
+}
+
+.global-search-item-desc {
+  flex: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.global-search-item-count {
+  flex: none;
+}
+.search-box-button {
+  padding-left: 10px !important;
+  padding-right: 0px !important;
+  background: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}
+@media only screen and (max-width: 1224px) {
+  .search-box-button {
+    background: #fff !important;
+    color: var(--main-color) !important;
+    padding-right: 10px !important;
+    border-left-color: #fff !important;
+  }
+}
+.global-search-wrapper {
+  padding-right: 50px;
+  width: 200px;
+}
+.select-box > div {
+  width: 200px;
+  border-color: var(--main-color) !important;
+}
+
+.menu-item-link {
+  font-size: 1.5rem;
+}
+.menu-item-link-mobile {
+  width: 50%;
+  font-size: 1.6rem;
+}
+.ant-dropdown-menu {
+  background-color: var(--main-color) !important;
+}
+.ant-dropdown-menu-item {
+  background: var(--main-color);
+}
+.ant-dropdown-menu-item:hover {
+  background: #4772b7 !important;
+}
+.ant-dropdown-menu-item a {
+  color: #eee !important;
+}
+.ant-menu-item {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+.ant-menu-item:hover,
+.ant-menu-item-selected {
+  color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}
+.ant-menu-submenu.ant-menu-submenu-horizontal.ant-menu-overflowed-submenu {
+  border-color: var(--main-color) !important;
+}
+.header {
+  padding: 0px !important;
+  background-color: var(--main-bg-color) !important;
+  height: 100% !important;
+}
+.header-menu-bar {
+  line-height: 64px !important;
+  padding: 40px 10px 0px 10px !important;
+  display: flex !important;
+}
+.menu-button {
+  width: 40px !important;
+  border: none !important;
+  font-size: 1.5rem !important;
+}
+.menu-button > i {
+  color: var(--main-color);
+  font-size: 1.5rem !important;
+}
+.dropdown-menu-button:hover,
+.dropdown-menu-button:focus {
+  background-color: var(--main-color) !important;
+}
+.dropdown-menu-button:hover > i,
+.dropdown-menu-button:focus > i {
+  color: #fff !important;
+}
+.n-border {
+  border: none !important;
+  padding: 0px 10px !important;
+}
+.n-space {
+  margin-right: auto !important;
+}
+.menu-dropdown a {
+  color: #fff !important;
+  background: var(--main-color) !important;
+}
+.sub-header-menu-button {
+  margin: 0px 10px;
+  width: 16%;
+  color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+}
+.sub-header-menu-button:hover,
+.sub-header-menu-button:focus {
+  background: var(--main-color) !important;
+  color: #fff !important;
+}
+.sub-header-menu {
+  height: 70px;
+  width: 100%;
+  margin-top: 30px;
+}
+.main-body-layout {
+  background-color: var(--main-bg-color) !important;
+  padding: 0;
+}
+.main-body-sider {
+  background-color: #aaa !important;
+}
+.main-body-content {
+  padding: 0 24px;
+  margin-left: 20px;
+  min-height: 280px !important;
+  height: 100% !important;
+  background: #aaa;
+}
+.main-content {
+  padding: 0px 6%;
+}
